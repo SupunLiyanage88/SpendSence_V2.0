@@ -17,8 +17,8 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="1000dp"
-                android:background="@color/white"
+                android:layout_height="1100dp"
+                android:background="@color/color01"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -28,13 +28,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    tools:layout_editor_absoluteX="0dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     tools:layout_editor_absoluteY="28dp">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:background="@drawable/home_background">
+                        android:layout_height="115dp"
+                        android:layout_marginTop="40dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -105,15 +106,15 @@
                             <ImageView
                                 android:id="@+id/imageView31"
                                 android:layout_width="wrap_content"
-                                android:layout_height="40dp"
+                                android:layout_height="30dp"
                                 android:layout_marginTop="15dp"
                                 android:layout_weight="1"
-                                app:srcCompat="@drawable/home_black" />
+                                app:srcCompat="@drawable/vector" />
 
                             <ImageView
                                 android:id="@+id/imageView33"
                                 android:layout_width="wrap_content"
-                                android:layout_height="40dp"
+                                android:layout_height="30dp"
                                 android:layout_marginTop="15dp"
                                 android:layout_weight="1"
                                 app:srcCompat="@drawable/icon_2" />
@@ -121,7 +122,7 @@
                             <ImageView
                                 android:id="@+id/imageView34"
                                 android:layout_width="wrap_content"
-                                android:layout_height="35dp"
+                                android:layout_height="30dp"
                                 android:layout_marginTop="15dp"
                                 android:layout_weight="1"
                                 app:srcCompat="@drawable/icon_1" />
@@ -129,7 +130,7 @@
                             <ImageView
                                 android:id="@+id/imageView35"
                                 android:layout_width="wrap_content"
-                                android:layout_height="40dp"
+                                android:layout_height="30dp"
                                 android:layout_marginTop="15dp"
                                 android:layout_weight="1"
                                 app:srcCompat="@drawable/icon_3" />
@@ -149,12 +150,13 @@
                             android:layout_gravity="center"
                             android:layout_marginTop="15dp"
                             app:cardBackgroundColor="#393939"
-                            app:cardCornerRadius="15dp">
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="50dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@color/color01"
+                                android:background="@drawable/gradiant_back01"
                                 android:orientation="vertical">
 
                                 <TextView
@@ -163,8 +165,10 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="15dp"
                                     android:text="@string/txt_1"
+                                    android:textStyle="bold"
                                     android:textAlignment="center"
-                                    android:textColor="@color/white" />
+                                    android:textColor="@color/color01"
+                                    android:textSize="18sp" />
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -180,7 +184,7 @@
                                         android:layout_marginTop="9dp"
                                         android:layout_marginRight="7dp"
                                         android:text="@string/currency"
-                                        android:textColor="@color/white"
+                                        android:textColor="@color/color01"
                                         android:textSize="30sp"
                                         android:textStyle="bold" />
 
@@ -189,7 +193,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="@string/saved_value"
-                                        android:textColor="@color/white"
+                                        android:textColor="@color/color02"
                                         android:textSize="50sp"
                                         android:textStyle="bold" />
 
@@ -200,7 +204,7 @@
                                         android:layout_marginLeft="7dp"
                                         android:layout_marginTop="5dp"
                                         android:text=".32"
-                                        android:textColor="#888888"
+                                        android:textColor="#4A4A4A"
                                         android:textSize="40sp"
                                         android:textStyle="bold" /> <!-- Dark black color -->
                                 </LinearLayout>
@@ -213,6 +217,515 @@
                                     android:layout_marginRight="10dp"
                                     android:layout_marginBottom="10dp"
                                     app:srcCompat="@drawable/ei_arrow" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="23dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Daily Spending"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="148dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="185dp"
+                            android:layout_height="134dp"
+                            android:layout_marginLeft="19dp"
+                            app:cardBackgroundColor="@color/color02"
+                            app:cardCornerRadius="15dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:text="@string/txt_2"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/white" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textViewRs1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="5dp"
+                                        android:text="@string/currency"
+                                        android:textColor="@color/white"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textViewAmount1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:text="@string/D_amount"
+                                        android:textColor="@color/white"
+                                        android:textSize="35sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textViewCents1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="2dp"
+                                        android:text="@string/decimal"
+                                        android:textColor="#888888"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold" /> <!-- Dark black color -->
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/imageView23"
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:layout_marginRight="10dp"
+                                    app:srcCompat="@drawable/ei_arrow" />
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="185dp"
+                            android:layout_height="134dp"
+                            android:layout_marginStart="6dp"
+                            app:cardBackgroundColor="@color/color02"
+                            app:cardCornerRadius="15dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView15"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:text="@string/mounthly_txt"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/white" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textViewRs2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="5dp"
+                                        android:text="@string/currency"
+                                        android:textColor="@color/white"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textViewAmount2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:text="9,854"
+                                        android:textColor="@color/white"
+                                        android:textSize="35sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textViewCents3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="2dp"
+                                        android:text="@string/decimal"
+                                        android:textColor="#888888"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold" /> <!-- Dark black color -->
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/imageView_copy"
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:layout_marginRight="10dp"
+                                    app:srcCompat="@drawable/ei_arrow" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Recent Transactions"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="380dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="25dp"
+                            app:cardBackgroundColor="@color/color02"
+                            app:cardCornerRadius="15dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView27"
+                                    android:layout_width="6dp"
+                                    android:layout_height="45dp"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/group_7" />
+
+                                <LinearLayout
+                                    android:layout_width="132dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/textView27"
+                                        android:layout_width="178dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="9dp"
+                                        android:textColor="@color/white"
+                                        android:layout_marginRight="210dp"
+                                        android:layout_weight="1"
+                                        android:text="Food"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView28"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:layout_weight="1"
+                                        android:textColor="@color/white"
+                                        android:text="7 Transactions"
+                                        android:textSize="13sp" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/textView29"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_weight="1"
+                                    android:textColor="@color/white"
+                                    android:text="- Rs. 6,450.00"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="380dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/color02"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView27_copy"
+                                    android:layout_width="6dp"
+                                    android:layout_height="45dp"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/group_8" />
+
+                                <LinearLayout
+                                    android:layout_width="132dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/textView27_copy2"
+                                        android:layout_width="178dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="9dp"
+                                        android:layout_marginRight="210dp"
+                                        android:layout_weight="1"
+                                        android:text="Auto Savings"
+                                        android:textColor="@color/white"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView28_copy2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:layout_weight="1"
+                                        android:text="4 Transactions"
+                                        android:textColor="@color/white"
+                                        android:textSize="13sp" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/textView29_copy2"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_weight="1"
+                                    android:text="+ Rs. 1,000.00"
+                                    android:textColor="@color/white"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="380dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            app:cardBackgroundColor="@color/color02"
+                            app:cardCornerRadius="15dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView271"
+                                    android:layout_width="6dp"
+                                    android:layout_height="45dp"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/group_7" />
+
+                                <LinearLayout
+                                    android:layout_width="132dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/textView271"
+                                        android:layout_width="178dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="9dp"
+                                        android:layout_marginRight="210dp"
+                                        android:layout_weight="1"
+                                        android:text="Food"
+                                        android:textColor="@color/white"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView281"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:layout_weight="1"
+                                        android:text="7 Transactions"
+                                        android:textColor="@color/white"
+                                        android:textSize="13sp" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/textView291"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_weight="1"
+                                    android:text="- Rs. 6,450.00"
+                                    android:textColor="@color/white"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="380dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/color02"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView27_copy3"
+                                    android:layout_width="6dp"
+                                    android:layout_height="45dp"
+                                    android:layout_marginTop="7dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/group_8" />
+
+                                <LinearLayout
+                                    android:layout_width="132dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/textView27_copy4"
+                                        android:layout_width="178dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="9dp"
+                                        android:layout_marginRight="210dp"
+                                        android:layout_weight="1"
+                                        android:text="Auto Savings"
+                                        android:textColor="@color/white"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView28_copy3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:layout_weight="1"
+                                        android:text="4 Transactions"
+                                        android:textColor="@color/white"
+                                        android:textSize="13sp" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/textView29_copy3"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_weight="1"
+                                    android:text="+ Rs. 1,000.00"
+                                    android:textColor="@color/white"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="380dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="15dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:background="@color/color02">
+
+                                <ImageView
+                                    android:id="@+id/imageView27_copy3"
+                                    android:layout_width="6dp"
+                                    android:layout_height="45dp"
+                                    android:layout_marginTop="7dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/group_8" />
+
+                                <LinearLayout
+                                    android:layout_width="132dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/textView27_copy4"
+                                        android:layout_width="178dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="9dp"
+                                        android:layout_marginRight="210dp"
+                                        android:layout_weight="1"
+                                        android:textColor="@color/white"
+                                        android:text="Auto Savings"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView28_copy3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:layout_weight="1"
+                                        android:textColor="@color/white"
+                                        android:text="4 Transactions"
+                                        android:textSize="13sp" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/textView29_copy3"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_weight="1"
+                                    android:textColor="@color/white"
+                                    android:text="+ Rs. 1,000.00"
+                                    android:textStyle="bold" />
 
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>

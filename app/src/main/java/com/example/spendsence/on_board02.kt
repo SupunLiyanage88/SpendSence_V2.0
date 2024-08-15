@@ -21,7 +21,6 @@ class on_board02 : AppCompatActivity() {
 
             val skipbtn2 = findViewById<TextView>(R.id.textView3)
             skipbtn2.setOnClickListener {
-                // Navigate to the Login activity when the Skip button is clicked
                 val intent = Intent(this, Login::class.java)
                 startActivity(intent)
             }

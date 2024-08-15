@@ -5,7 +5,7 @@
         <item name="colorPrimary">#181818</item>
         <item name="colorPrimaryDark">#181818</item>
         <item name="colorOnPrimary">@android:color/white</item>
-        <item name="android:actionBarStyle">@style/ActionBarBlack</item>
+        <item name="android:actionBarStyle">@style/ActionBarCustom</item>
         <item name="android:windowTranslucentNavigation">true</item> <!-- Enable translucent navigation -->
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:navigationBarColor">@android:color/transparent</item> <!-- Make navigation bar transparent -->
@@ -14,9 +14,8 @@
     <style name="Theme.SpendSence" parent="Base.Theme.SpendSence" />
 
     <!-- Action Bar Style -->
-    <style name="ActionBarBlack" parent="Widget.AppCompat.ActionBar.Solid">
-        <item name="android:background">#181818</item>
-        <!-- Removed text color setting -->
+    <style name="ActionBarCustom" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">#2F2F2F</item> <!-- Set top bar color -->
     </style>
 
     <!-- Action Bar Title Text Style -->

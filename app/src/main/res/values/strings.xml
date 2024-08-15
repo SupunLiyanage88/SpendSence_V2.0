@@ -46,6 +46,15 @@
     <string name="currency">Rs.</string>
     <string name="D_amount">1,540</string>
     <string name="decimal">.00</string>
+    <string name="traget_page_title">Tragets</string>
+    <string name="target_subtitle">Your Target</string>
+    <string name="traget_value">Rs 10,500 .00</string>
+    <string name="btn_name_target">Set new traget</string>
+    <string name="sub_title_target">Set Tragets</string>
+    <string name="btn1_title">YouTube</string>
+    <string name="btn1_value">Rs. 10,000</string>
+    <string name="btn2_title_target">Uber</string>
+    <string name="btn2_value_target">Rs. 10,000</string>
 
 
 </resources>

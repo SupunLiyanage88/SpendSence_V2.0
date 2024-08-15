@@ -27,6 +27,7 @@
         <activity android:name=".Email_Login" />
         <activity android:name=".SignUp" />
         <activity android:name=".HomePage"/>
+        <activity android:name=".Traget" />
 
 
     </application>

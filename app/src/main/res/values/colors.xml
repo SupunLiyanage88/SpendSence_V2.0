@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="color01">#181818</color>
+
+    <!-- 60,30,10 Colors -->
     <color name="gold">#D2B476</color>
     <color name="white">#C4C4C4</color>
     <color name="color02">#2F2F2F</color>
+
+    <!-- Text Colors -->
+    <color name="red">#D60000</color>
+    <color name="green">#47DA13</color>
+    <color name="color01">#181818</color>
+
 </resources>
