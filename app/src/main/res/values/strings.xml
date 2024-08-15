@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">SpendSence</string>
+
+    <!-- Onboarding Screen 01 -->
+    <string name="on_b01">Worry about your finances</string>
+    <string name="on_b01_des">Manage your finances effortlessly. Track expenses, set budgets, and save more. Start your financial journey with us!</string>
+    <string name="on_b01_startbtn">Start Saving Now</string>
+    <string name="skipbtn"><![CDATA[Skip >>]]></string>
+
+    <!-- Onboarding Screen 02 -->
+    <string name="on_b02_txt">Track Your Spending</string>
+    <string name="on_b02_des">Monitor your expenses in real-time. Categorize spending and gain insights to make smarter financial decisions.</string>
+    <string name="next_btn">Next</string>
+
+    <!-- Onboarding Screen 03 -->
+    <string name="board_03_txt">Set Budgets and Save</string>
+    <string name="board_03_des">Create budgets and achieve your savings goals. Get tips and notifications to stay on track with Spendsence.</string>
+    <string name="saving_btn">Start Saving</string>
+
+    <!-- LogIn -->
+    <string name="greetingmes">Welcome</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="user_mes">Take Control of Your Finance</string>
+    <string name="sign_up_btn">Sign Up</string>
+    <string name="log_in_mes">Log In</string>
+    <string name="login_greeting">Glad to see you back!</string>
+    <string name="privacy_txt">Privacy Policy and Terms</string>
+
+    <!-- email login -->
+    <string name="email_login_des">Please enter your email to \n Continue</string>
+    <string name="Spend_sence_mes">SpendSence Works Well With Google</string>
+    <string name="e_mail">E-mail</string>
+    <string name="pwd">Password</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_up_des">Your First Step Towards Financial Control</string>
+    <string name="profile_name">Hey! Devid</string>
+    <string name="user_name">Hey! Supun</string>
+    <string name="saving_tip">Let us give you tips and make \nyou go on the track</string>
+    <string name="txt_1">You Saved</string>
+    <string name="txt_2">Daily Spending</string>
+    <string name="daily_value">Rs. 5,000</string>
+    <string name="spending_title">Your Card Spending</string>
+    <string name="mounthly_txt">Mounthly Speding</string>
+    <string name="saved_value">12,792</string>
+    <string name="tip_title">Get start on savings</string>
+    <string name="currency">Rs.</string>
+    <string name="D_amount">1,540</string>
+    <string name="decimal">.00</string>
+
+
+</resources>

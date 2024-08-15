@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color01"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+
+        <ImageView
+            android:id="@+id/logo_signup"
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/spendsence" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="@string/greetingmes" />
+
+    <TextView
+        android:id="@+id/signup_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="28sp"
+        android:text="@string/sign_up" />
+
+    <TextView
+        android:id="@+id/signup_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:text="@string/sign_up_des" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="125sp"
+        android:layout_marginLeft="@dimen/cardview_default_elevation"
+        android:layout_marginRight="@dimen/cardview_default_elevation"
+        android:layout_marginTop="45sp"
+        app:srcCompat="@drawable/logo" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="257dp">
+
+        <ImageView
+            android:id="@+id/apple_signup"
+            android:layout_width="350sp"
+            android:layout_height="55sp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/apple_btn" />
+
+        <ImageView
+            android:id="@+id/google_signup"
+            android:layout_width="350sp"
+            android:layout_height="55sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/apple_signup"
+            app:srcCompat="@drawable/google_btn" />
+
+        <ImageView
+            android:id="@+id/signup_email"
+            android:layout_width="350sp"
+            android:layout_height="55sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/google_signup"
+            app:srcCompat="@drawable/email_btn" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login_btn_S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28sp"
+            android:text="@string/log_in_mes"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/privacytxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70sp"
+            android:text="@string/privacy_txt"
+            android:textAlignment="center"
+            android:textColor="#7B7B7B" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
